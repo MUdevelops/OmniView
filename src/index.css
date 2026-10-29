@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:#f3f2ee;--panel:#fff;--ink:#1d1f23;--mute:#6b6f76;--line:#d9d8d2;--accent:#1f5eff}
+.dark{--bg:#16181c;--panel:#1e2126;--ink:#e8e9eb;--mute:#8b9098;--line:#2d3138;--accent:#6b9bff}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Atkinson Hyperlegible",system-ui,sans-serif}
+.checker{background-color:#fff;background-image:conic-gradient(#d4d4d4 25%,transparent 0 50%,#d4d4d4 0 75%,transparent 0);background-size:16px 16px}
+.dark .checker{background-color:#2a2d33;background-image:conic-gradient(#383c44 25%,transparent 0 50%,#383c44 0 75%,transparent 0)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

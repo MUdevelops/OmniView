@@ -1,0 +1,2 @@
+OmniView plain text fixture.
+Second line.

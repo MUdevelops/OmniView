@@ -1,0 +1,1 @@
+{ "name": "omniview-converter", "version": "1.0.0", "private": true, "type": "module", "description": "Optional LibreOffice .doc/.ppt -> PDF converter for OmniView. Disabled unless ENABLE_CONVERSION=true.", "scripts": { "start": "node server.js" }, "engines": { "node": ">=18" } }
